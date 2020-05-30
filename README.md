@@ -33,16 +33,7 @@ $ go-grab-xkcd -n 323 -o json
 
 
 
-$ tree go-grab-xkcd
-
-go-grab-xkcd
-├── client
-│   └── xkcd.go
-└── model
-    └── comic.go
-├── main.go
-└── go.mod
-
+Files in the app.
 go.mod - Go Modules file used in Go for package management
 main.go - Main entrypoint of the application
 comic.go - Go representation of the data as a struct and operations on it
